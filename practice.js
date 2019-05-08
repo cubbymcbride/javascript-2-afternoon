@@ -13,6 +13,12 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
+let me = {
+  name: 'Caleb McBride',
+  age: 23
+}
+
+me.name
 
 //Code here
 
@@ -23,9 +29,16 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings = {
+  band: 'The Wonder Years',
+  food: 'Sushi',
+  person: 'Maristan McBride',
+  book: 'Leven Thumps',
+  movie: 'Scott Pilgrim vs The World',
+  holiday: 'Thanksgiving'
+}
 
-/*
+/* 
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
