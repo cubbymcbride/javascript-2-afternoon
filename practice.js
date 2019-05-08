@@ -76,7 +76,6 @@ backPack['firstPocket'] = 'chapstick'
   After you do the above, alert your entire backPack object.
 */
 
-backPack()
 
 /*
 You probably noticed that it just alerted [object Object].
