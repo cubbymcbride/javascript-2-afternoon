@@ -43,14 +43,16 @@ let favoriteThings = {
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = 'Chevy Camaro'
+favoriteThings.brand = 'Vans'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -62,13 +64,19 @@ let favoriteThings = {
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
+var backPack = {
+
+}
+
+var item = 'firstPocket'
+
+backPack['firstPocket'] = 'chapstick'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+backPack()
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -76,7 +84,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
 
-//Code here
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
@@ -97,7 +105,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
